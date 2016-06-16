@@ -1,0 +1,93 @@
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+/*Full page image*/
+.overall {
+  font-size: 1.5em;
+  font-family: myriad-pro, sans-serif;
+  display: table;
+  height: 100%;
+  width: 100%;
+  /*position: relative;*/
+  /*background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  /*background-size: cover;*/
+  background-color: #f5f5f5;
+  background-size: 400% 400%;
+}
+
+.vertical-content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 25px;
+}
+
+/*Display: block and left right margin: auto makes the div align to center easily*/
+#face-i {
+  display: block;
+  border-radius: 100%;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  margin-top: -5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  padding-top: 20px;
+}
+
+.intro p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.list {
+  display: block;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.ghost-button-transition {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button-transition:hover,
+.ghost-button-transition:active,
+.ghost-button-transition:focus {
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+  text-decoration: none;
+  outline: none;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
+
+@media (max-width: 768px) {
+    .overall {
+        /*background: url(background.jpg) no-repeat center center scroll;*/
+        background-color: #f5f5f5;
+        background-size: 400% 400%;
+    }
+}
