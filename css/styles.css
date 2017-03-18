@@ -1,0 +1,119 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#particles-js { 
+  position:fixed; 
+  z-index: -20;
+  display: block;
+  width: 100%; 
+  height: 100%; 
+  background-image: url("http://cdn.playbuzz.com/cdn/bd2b746a-e881-44d2-9957-4110ead85a42/203dab87-db1f-4b37-8aa6-c45d82a18ce5.jpg"); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: 50% 50%; 
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -20;
+  background: rgba(0,0,0,0.6);
+}
+
+.container-table {
+  height: 100%;
+  widows: 100%;
+  display: table;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.vertical-center-row {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#face {
+  border-radius: 100%;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}
+
+a .fa {
+  color: white;
+}
+
+a .fa-facebook-official:active,
+a .fa-facebook-official:hover,
+a .fa-facebook-official:focus {
+  color: #9400D3;
+}
+
+a .fa-twitter-square:active,
+a .fa-twitter-square:hover,
+a .fa-twitter-square:focus {
+  color: #4B0082;
+}
+
+.fa-github-square:active,
+.fa-github-square:hover,
+.fa-github-square:focus {
+  color: #0000FF;
+}
+
+.fa-linkedin-square:active,
+.fa-linkedin-square:hover,
+.fa-linkedin-square:focus {
+  color: #00FF00;
+}
+
+.fa-envelope:active,
+.fa-envelope:hover,
+.fa-envelope:focus {
+  color: #FFFF00;
+}
+
+.fa-wordpress:active,
+.fa-wordpress:hover,
+.fa-wordpress:focus {
+  color: #FF7F00;
+}
+
+.fa-steam-square:hover,
+.fa-steam-square:active,
+.fa-steam-square:focus {
+  color: #FF0000;
+}
+
+.ghost-button-transition {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: white;
+  border: 2px solid white;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button-transition:hover,
+.ghost-button-transition:active,
+.ghost-button-transition:focus {
+  background-color: white;
+  font-size: 1.2em;
+  color: black;
+  margin-bottom: 20px;
+  text-decoration: none;
+  outline: none;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
